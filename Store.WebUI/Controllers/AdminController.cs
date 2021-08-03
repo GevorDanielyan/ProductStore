@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Store.Domain.Abstract;
@@ -17,7 +15,7 @@ namespace Store.WebUI.Controllers
         //    return View();
         //}
 
-        IProductRepository repository;
+        readonly IProductRepository repository;
 
         public AdminController(IProductRepository repo)
         {

@@ -1,5 +1,4 @@
-﻿using System;
-using Store.Domain.Entities;
+﻿using Store.Domain.Entities;
 
 namespace Store.Domain.Abstract
 {
