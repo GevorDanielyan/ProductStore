@@ -16,7 +16,7 @@ namespace Store.WebUI.Controllers
         //    return View();
         //}
 
-        IAuthProvider authProvider;
+        readonly IAuthProvider authProvider;
         public AccountController(IAuthProvider auth)
         {
             authProvider = auth;

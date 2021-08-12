@@ -10,5 +10,9 @@ namespace Store.WebUI.Models
 
         [Required]
         public string Password { get; set; }
+        public LoginViewModel()
+        {
+
+        }
     }
 }

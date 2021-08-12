@@ -1,5 +1,4 @@
-﻿using System;
-using Store.Domain.Entities;
+﻿using Store.Domain.Entities;
 
 namespace Store.WebUI.Models
 {
@@ -7,5 +6,10 @@ namespace Store.WebUI.Models
     {
         public ShoppingCart ShoppingCart { get; set; }
         public string ReturnUrl { get; set; }
+
+        public CartIndexViewModel()
+        {
+
+        }
     }
 }

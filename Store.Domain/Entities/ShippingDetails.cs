@@ -33,6 +33,10 @@ namespace Store.Domain.Entities
         public int PostalCode { get; set; }
 
         public bool GiftWrap { get; set; }
+        public ShippingDetails()
+        {
+
+        }
 
     }
 }

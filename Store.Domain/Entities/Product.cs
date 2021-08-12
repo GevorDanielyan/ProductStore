@@ -1,6 +1,5 @@
-﻿using System;
+﻿using System.ComponentModel.DataAnnotations;
 using System.Web.Mvc;
-using System.ComponentModel.DataAnnotations;
 
 namespace Store.Domain.Entities
 {
@@ -29,5 +28,10 @@ namespace Store.Domain.Entities
 
         public byte[] ImageData { get; set; }
         public string ImageMimeType { get; set; }
+
+        public Product()
+        {
+
+        }
     }
 }
